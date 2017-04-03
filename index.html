@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osnaldy Vasquez</title>
+
+    <!--Theme CSS-->
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!--JavaScript-->
+    <script type="text/javascript" src="scripts/index.js"></script>
+
+</head>
+<body>
+    <nav id="mynav">
+            <ul>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#myform">Form</a></li>
+                <li class="n2"><a href="dataScience.html">DataScience</a></li>
+            </ul>
+    </nav>
+
+    <header>
+        <div class="intro-text">
+            <div class="intro-heading">Welcome to my page</div>
+            <div class="intro-lead-in">Lebron James</div>
+        </div>
+    </header>
+
+    <section id="biography">
+
+        <h1 class = "logo" >LeBron James Biography</h1>
+
+        <img src="images/theKing.jpg">
+
+        <p class="first-paragraph">
+            LeBron Raymone James born December 30, 1984) is an American professional basketball player for
+            the Cleveland Cavaliers of the National Basketball Association (NBA). James has won three NBA championships
+            (2012, 2013, 2016), four NBA Most Valuable Player Awards (2009, 2010, 2012, 2013), three NBA Finals MVP
+            Awards (2012, 2013, 2016), two Olympic gold medals (2008, 2012), an NBA scoring title (2008),
+            and the NBA Rookie of the Year Award (2004). He has also been selected to 13 NBA All-Star teams,
+            12 All-NBA teams, and six All-Defensive teams, and is the Cavaliers' all-time leading scorer.
+
+        </p>
+        <p class="first-paragraph">
+            <br>
+            James played high school basketball at St. Vincent–St. Mary High School in his hometown of Akron,
+            Ohio, where he was highly promoted in the national media as a future NBA superstar. After graduating,
+            he was selected by the Cleveland Cavaliers as the first overall pick of the 2003 NBA draft. James led
+            Cleveland to the franchise's first Finals appearance in 2007, losing to the San Antonio Spurs. In 2010,
+            he left the Cavaliers for the Miami Heat in a highly publicized ESPN special titled The Decision.
+            James played four seasons for the Heat, reaching the Finals all four years and winning back-to-back
+            championships in 2012 and 2013. In 2013, he led Miami on a 27-game winning streak, the third longest
+            in league history. Following his final season with the Heat, James opted out of his contract and
+            re-joined the Cavaliers. Behind his leadership, Cleveland immediately advanced to two consecutive
+            Finals against the Golden State Warriors, winning the championship in 2016 to end Cleveland's
+            fifty-two year professional sports title drought.
+        </p>
+
+    </section>
+
+    <section id="highlights">
+        <h1 class="logo">LeBron's Highlights</h1>
+        <iframe width="700" height="400" src="https://www.youtube.com/embed/WQEASL1oWdE"></iframe>
+        <iframe width="700" height="400" src="https://www.youtube.com/embed/rR9pDQoAtjE"></iframe>
+    </section>
+
+    <section id="stats">
+        <h1 class="logo">LeBron James Stats</h1>
+        <table>
+            <tr>
+                <th>Summary</th>
+                <th>Games</th>
+                <th>Points</th>
+                <th>Total Rebounds</th>
+                <th>Assists</th>
+                <th>FG%</th>
+                <th>FG3%</th>
+                <th>FT%</th>
+                <th>eFG%</th>
+                <th>PER</th>
+                <th>WS</th>
+            </tr>
+
+            <tr>
+                <td>2016-17</td>
+                <td>67</td>
+                <td>26.0</td>
+                <td>8.4</td>
+                <td>8.8</td>
+                <td>54.2</td>
+                <td>37.3</td>
+                <td>67.9</td>
+                <td>59.0</td>
+                <td>26.7</td>
+                <td>11.2</td>
+            </tr>
+
+            <tr>
+                <td>Career</td>
+                <td>1054</td>
+                <td>27.1</td>
+                <td>7.2</td>
+                <td>7.0</td>
+                <td>50.0</td>
+                <td>34.2</td>
+                <td>74.0</td>
+                <td>53.6</td>
+                <td>27.6</td>
+                <td>203.7</td>
+            </tr>
+        </table>
+    </section>
+
+    <div id="myform">
+        <h1 class="logo">Fill out the form</h1>
+
+        <form action="mailto:Osnaldy@hotmail.com" method="post" enctype="text/plain" onsubmit="validateForm()">
+            <label>First Name</label> <br>
+            <input type="text" id="fname" required><br>
+            <label>Last Name</label> <br>
+            <input type="text" id="lname"required><br>
+            <label>Phone Number</label> <br>
+            <input type="text" id="number"><br>
+            <label>Email</label> <br>
+            <input type="text" id="email" required>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+            <input type="reset" value="Reset">
+
+        </form>
+
+            <!--<form action="mailto:Osnaldy@hotmail.com" method="post" enctype="text/plain">-->
+                <!--<table>-->
+                    <!--<tr>-->
+                        <!--<td>First Name:</td>-->
+                        <!--<td><input size="40" type="text" id="fname"></td>-->
+                    <!--</tr>-->
+
+                    <!--<tr>-->
+                        <!--<td>Last Name:</td>-->
+                        <!--<td><input size="40" type="text" id="lname"></td>-->
+                    <!--</tr>-->
+
+                    <!--<tr>-->
+                        <!--<td>Number:</td>-->
+                        <!--<td><input size="40" type="text" id="number"></td>-->
+                    <!--</tr>-->
+
+                    <!--<tr>-->
+                        <!--<td>Email:</td>-->
+                        <!--<td><input size="40" type="text" id="email"></td>-->
+                    <!--</tr>-->
+
+                    <!--<tr>-->
+                        <!--<td><input class="smBtn" type="button" id="add" value="Submit" onclick="validateForm()"></td>-->
+                        <!--<td>&nbsp;</td>-->
+                    <!--</tr>-->
+
+                    <!--<tr>-->
+                        <!--<td><input class="smBtn" type="reset" value="Reset"></td>-->
+                        <!--<td>&nbsp;</td>-->
+                    <!--</tr>-->
+                <!--</table>-->
+            <!--</form>-->
+    </div>
+    <footer class="footer">
+        <p class="right copyright">© Osnaldy Vasquez 2017</p>
+    </footer>
+</body>
+</html>

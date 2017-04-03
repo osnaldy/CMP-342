@@ -1,0 +1,93 @@
+.navbar
+{
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: white;
+    border-radius: 0px;
+    z-index: 5 !important;
+}
+
+.navbar-default .navbar-brand
+{
+    color: black;
+    /*border-bottom: 2px solid #4B6E41;*/
+}
+
+.navbar-default .navbar-brand:hover
+{
+    color: #D11F37;
+    /*border-bottom: 2px solid #4B6E41;*/
+}
+
+.navbar-brand
+{
+    line-height: 30px;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+
+    color: black;
+}
+
+.navbar-default .navbar-nav li a:hover
+{
+    color: #D11F37;
+    box-shadow: 0 -4px #D11F37 inset;
+
+}
+
+.navbar-nav li a
+{
+    line-height: 30px;
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+
+.copyright
+{
+    color: #454A43;
+}
+
+.right
+{
+    padding-right: 10px;
+    float: right !important;
+}
+
+.imgs
+{
+    padding-top: 50px;
+    margin-top: -55px;
+    height: 635px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.addpaddig-firstsentence
+{
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 5px #D11F37;
+}
+
+.fontStyle
+{
+    font-family: 'Trocchi', serif;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.p1
+{
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.fontStyle1
+{
+    font-family: 'Trocchi', serif;
+    font-style: italic;
+    font-size: 20px;
+}

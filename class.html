@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HTML dynamic table using JavaScript</title>
+
+    <link rel="stylesheet" href="./css/basic_forms.css" type="text/css"/>
+    <script type="text/javascript" src="./scripts/tableFunctions.js"></script>
+    <style>
+    table{
+    border:1px solid #cccccc;
+    width:400px;
+    }
+    td, th{
+    width:25%;
+    text-align:center;
+    }
+
+    input.smBtn{
+    width:100px;
+    border-radius:3em;
+    }
+    </style>
+</head>
+<body onload="load()">
+<div id="myform">
+<b>Simple form with name and age ...</b>
+<table >
+    <tr>
+        <td>Name:</td>
+        <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <td>Age:</td>
+        <td><input type="text" id="age">
+
+    </tr>
+    <tr>
+        <td><input class="smBtn" type="button" id="add" value="Add" onclick="addRow()"></td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</div>
+<br/>
+<div id="mydata">
+<b>Current data in the system ...</b>
+<table id="myTableData">
+    <tr>
+        <th>Deletion Button</th>
+        <th>Name</th>
+        <th><b>Age</b></th>
+    </tr>
+</table>
+&nbsp;
+
+</div>
+<div id="myDynamicTable">
+<input type="button" id="create" value="Create a Table using JavaScript" onclick="addTable()">
+</div>
+</body>
+</html>
